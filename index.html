@@ -1,23 +1,29 @@
 <!doctype html>
-<html>
+<html lang="ja">
   <head>
     <meta charset="utf-8" />
-    <title>Live manga-ocr</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Fumiko - Live Manga OCR</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <header>
-      <h1>Live Manga OCR</h1>
-      <div id="stamp"></div>
-      <button id="copy">Copy</button>
+      <h1>Fumiko - Live Manga OCR</h1>
+      <div id="meta">
+        <span id="stamp">not updated</span>
+        <button id="copy">Copy</button>
+      </div>
     </header>
-    <div id="container">
+
+    <main>
       <pre id="out" class="empty">
-No OCR yet. Make a selection with the bound shortcut.
+No OCR yet. Make a selection with your shortcut.
       </pre>
-    </div>
+    </main>
+
+    <footer>
+      <small>Polling out.txt every 500ms (uses XHR)</small>
+    </footer>
 
     <script src="script.js"></script>
   </body>

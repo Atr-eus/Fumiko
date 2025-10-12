@@ -1,1 +1,16 @@
-*.txt
+# Ignore OCR output
+out.txt
+
+# Python artifacts
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
+
+# Editor config
+.vscode/
+.idea/
+
+# node
+node_modules/
