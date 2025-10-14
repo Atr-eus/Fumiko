@@ -2,8 +2,8 @@
 This program was only tested on [Hyprland](https://hypr.land/), installed on an [Arch Linux](https://archlinux.org/) system. It should work on other wayland compositors, but no guarantees.
 
 # Dependencies
-- `grim`
-- `slurp`
+- [`grim`](https://github.com/emersion/grim)
+- [`slurp`](https://github.com/emersion/slurp)
 - [`manga-ocr`](https://github.com/kha-white/manga-ocr)
 
 # How to run
